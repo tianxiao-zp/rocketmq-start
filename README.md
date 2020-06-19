@@ -54,10 +54,6 @@ rocketmq.subscribes=test,*;test2,xxx;test3,aaa
 
 
 ```java
-/**
- * 
- */
-package com.dianwoba.alliance.flash.config;
 
 import java.util.List;
 
@@ -72,11 +68,7 @@ import com.alibaba.rocketmq.client.producer.LocalTransactionState;
 import com.alibaba.rocketmq.client.producer.TransactionCheckListener;
 import com.alibaba.rocketmq.common.message.MessageExt;
 
-/**
- * @author Zhu
- * @date 2017年2月25日 下午10:47:57
- * @description
- */
+
 @Configuration
 public class RocketMqConfig {
 
